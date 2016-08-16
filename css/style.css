@@ -4,11 +4,11 @@ body {
 }
 
 .wrapper {
-  margin: 2em;
+  margin: 1em;
   padding: 1em;
 }
 
-h1, h2, nav, a {
+h1, h2, a {
   font-weight: 300;
   line-height: 1.0; 
   text-align: center;
