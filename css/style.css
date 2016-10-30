@@ -1,8 +1,6 @@
-<style type="text/css">
-<!--/*--><![CDATA[/*><!--*/
-   img.preload { display: none; }
-/*]]>*/-->
-</style>
+img.preload { 
+    display: none; 
+}
 
 * {
     margin: 0;
