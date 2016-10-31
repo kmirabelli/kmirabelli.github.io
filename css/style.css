@@ -4,6 +4,7 @@
 }
 
 body {
+    color: #000000;
     font-family: "Muli", sans-serif;
     font-size: 14px;
     font-weight: 300;
@@ -33,7 +34,6 @@ a:hover {
 }
 
 h1 a {
-    color: #000000;
     display: block;
     float: left;
     font-size: 18px;
@@ -42,7 +42,6 @@ h1 a {
 }
 
 h2 {
-    color: #000000;
     font-size: 16px;
     padding-bottom: 10px;
     padding-top: 20px;
@@ -59,12 +58,8 @@ h2 {
     padding: 2%;
 }
 
-.normal a:hover {
-    color: #000000;
-}
 
 #mobile {
-    color: #000000;
     display: none;
     font-size: 18px;
     margin-right: 5px;
@@ -72,25 +67,16 @@ h2 {
     text-align: right;
 }
 
-#mobile a:hover {
-    color: #000000;
-}
-
 .small {
     display: none;
 }
 
 .small a {
-    color: #000000;
     display: block;
     font-size: 14px;
     padding: 2%;
     text-align: right;
     text-decoration: none;
-}
-
-.small a:hover {
-    color: #000000;
 }
 
 #clearfix: after {
@@ -128,7 +114,6 @@ h2 {
 
 .detail {
     box-sizing: border-box;
-    color: #000000;
     display: inline-block;
     font-size: 14px;
     line-height: 1.5;
@@ -143,7 +128,7 @@ h2 {
 
 .more img {
     box-sizing: border-box;
-    display: block;
+    display: inline-block;
     max-width: 600px;
     text-align: center;
     padding: 30px;
@@ -165,12 +150,10 @@ h2 {
 }
 
 #about a {
-    color: #000000;
     text-decoration: underline;
 }
 
 .home {
-    color: #000000;
     padding: 20px;
     text-align: center;
 }
@@ -181,7 +164,6 @@ footer {
 }
 
 #about p {
-    color: #000000;
     font-size: 1em;
     line-height: 1.5;
     margin: .15em;
@@ -195,7 +177,6 @@ footer {
 }
 
 #copyright {
-    color: #000000;
     padding-bottom: 20px;
 }
 
