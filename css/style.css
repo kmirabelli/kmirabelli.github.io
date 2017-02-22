@@ -81,9 +81,15 @@ h3 {
     width: 100%;
 }
 
-.thumb {
-    display: block;
-    text-align: center;
+.thumb img {
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 600px;
+    min-width: 300px;
+    padding: 10px;
+    text-align: left;
     width: 100%;
 }
 
@@ -98,6 +104,7 @@ h3 {
     font-size: 14px;
     line-height: 1.5;
     max-width: 600px;
+    min-width: 300px;
     padding: 10px;
     text-align: left;
     width: 100%;
@@ -107,6 +114,7 @@ h3 {
     box-sizing: border-box;
     display: inline-block;
     max-width: 600px;
+    min-width: 300px;
     text-align: center;
     padding: 10px;
     width: 100%;
