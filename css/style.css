@@ -10,18 +10,13 @@ body {
     font-weight: 300;
 }
 
-img.preload { 
-    display: none; 
+img.preload {
+    display: none;
 }
 
 .wrapper {
     margin-left: 2%;
     margin-right: 2%;
-}
-
-.container {
-    margin: 2%;
-    min-height: 525px;
 }
 
 a {
@@ -33,7 +28,8 @@ a:hover {
     opacity: 0.6;
 }
 
-h1 a, h2 a {
+h1 a,
+h2 a {
     color: #000000;
     display: block;
     font-family: "Open Sans", sans-serif;
@@ -58,15 +54,11 @@ h3 {
     text-align: left;
 }
 
-#clearfix: after {
-    clear: both;
-    content: "";
-    display: inline-block
-}
-
 #portfolio {
     box-sizing: border-box;
     display: inline-block;
+    height: 300px;
+    padding-top: 150px;
     text-align: center;
     width: 100%;
 }
@@ -93,45 +85,19 @@ h3 {
     width: 100%;
 }
 
-.main {
-    text-align: center;
-    width: 100%;
-}
-
-.detail {
-    box-sizing: border-box;
-    display: inline-block;
-    font-size: 14px;
-    line-height: 1.5;
-    max-width: 600px;
-    min-width: 300px;
-    padding: 10px;
-    text-align: left;
-    width: 100%;
-}
-
-.more img {
-    box-sizing: border-box;
-    display: inline-block;
-    max-width: 600px;
-    min-width: 300px;
-    text-align: center;
-    padding: 10px;
-    width: 100%;
-}
-
 #about {
     box-sizing: border-box;
     display: inline-block;
+    margin: 0 auto;
     padding-top: 40px;
     width: 100%;
 }
 
-#about img {
-    display: block;
-    float: left;
-    padding-right: 3px;
-    width: 25%;
+#about p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: .15em;
+    padding: 5px;
 }
 
 #about a {
@@ -149,20 +115,12 @@ footer {
     text-align: center;
 }
 
-#about p {
-    font-size: 14px;
-    line-height: 1.5;
-    margin: .15em;
-    padding: 5px;
-}
-
 #copyright {
     font-size: 12px;
     padding-bottom: 20px;
 }
 
-#fadeIn {
-    -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 1s;
-    -webkit-animation-iteration-count: infinite;
+.fadeIn {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0.2s;
 }
