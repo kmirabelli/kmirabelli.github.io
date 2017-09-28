@@ -54,6 +54,12 @@ h3 {
     text-align: left;
 }
 
+#placeholder {
+    height: 400px;
+    margin: 0 auto;
+    width: 80%;
+}
+
 #portfolio {
     box-sizing: border-box;
     display: inline-block;
