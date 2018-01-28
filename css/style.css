@@ -28,8 +28,18 @@ a:hover {
     opacity: 0.6;
 }
 
-h1 a,
-h2 a {
+h2 {
+    color: #000000;
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    padding: 2%;
+    text-align: center;
+}
+
+h1 a { 
     color: #000000;
     display: block;
     font-family: "Open Sans", sans-serif;
@@ -39,19 +49,11 @@ h2 a {
     letter-spacing: 2px;
     padding: 2%;
     text-align: left;
+    text-decoration: none;
 }
 
 h2 a {
     float: right;
-}
-
-h3 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    text-align: left;
 }
 
 #placeholder {
@@ -70,22 +72,31 @@ h3 {
 }
 
 #about {
-    box-sizing: border-box;
-    display: inline-block;
     margin: 0 auto;
-    width: 100%;
-}
-
-#about p {
-    font-size: 14px;
-    line-height: 1.5;
-    margin: .15em;
-    padding: 5px;
+    max-width: 750px;
 }
 
 #about a {
     text-decoration: underline;
 }
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: .15em;
+    padding: 5px;
+    text-align: left;
+}
+
+#links {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+#links a { 
+    text-decoration: underline;
+ }
 
 footer {
     padding: 2em;
