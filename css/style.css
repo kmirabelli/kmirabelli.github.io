@@ -3,11 +3,21 @@
     padding: 0;
 }
 
+.wrapper {
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%
+}
+
+.fadeIn {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0.2s;
+}
+
 body {
     background:linear-gradient(to right, LightCyan, LavenderBlush);
     color:cornflowerblue;    
     color: #333;
-    font-family: 'Inconsolata', monospace;
     text-align: left;
 }
 
@@ -15,22 +25,46 @@ img.preload {
     display: none;
 }
 
+.profile {
+    width: 100%;
+}
+
 img {
     padding-top: 20px;
 }
 
-.wrapper {
-    margin-left: 2%;
-    margin-right: 2%;
+h1 a { 
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-decoration: none;
 }
 
-#placeholder {
-    padding: 2%;
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 22px;
+    padding-bottom: 3%;
 }
 
-#portfolio {
-    display: inline-block;
-    width: 100%;
+li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    line-height: 22px;
+    list-style: none;
+    padding-bottom: 3%;
+}
+
+.links { 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 22px;
+    padding-bottom: 3%;
 }
 
 a {
@@ -46,43 +80,4 @@ a:hover {
 #name:hover {
     color: #333;
     text-decoration: none;
-}
-
-h1 a { 
-    display: block;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    float: left;
-    letter-spacing: 2px;
-    padding: 2%;
-    text-align: left;
-    text-decoration: none;
-}
-
-h2 {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 14px;
-    font-weight: 800;
-    padding-bottom: 10px;
-}
-
-li {
-    font-family: 'Inconsolata', monospace;
-    font-size: 16px;
-    line-height: 18px;
-    list-style: none;
-    padding-bottom: 10px;
-}
-
-.links { 
-    font-family: 'Roboto Mono', monospace;
-    font-size: 14px;
-    font-weight: 800;
-    padding-bottom: 10px; 
-}
-
-.fadeIn {
-    -webkit-animation-duration: 1s;
-    -webkit-animation-delay: 0.2s;
 }
