@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%
+}
+
+.fadeIn {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0.2s;
+}
+
+body {
+    background:linear-gradient(to right, LightCyan, LavenderBlush);
+    color:cornflowerblue;    
+    color: #333;
+    text-align: left;
+}
+
+img.preload {
+    display: none;
+}
+
+.profile {
+    width: 100%;
+}
+
+img {
+    padding-top: 20px;
+}
+
+h1 a { 
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 22px;
+    padding-bottom: 3%;
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    line-height: 22px;
+    list-style: none;
+    padding-bottom: 3%;
+}
+
+.links { 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 22px;
+    padding-bottom: 3%;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #746eb5;
+}
+
+#name:hover {
+    color: #333;
+    text-decoration: none;
+}
