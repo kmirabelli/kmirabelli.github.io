@@ -14,70 +14,73 @@
     -webkit-animation-delay: 0.2s;
 }
 
-body {
-    background:linear-gradient(to right, LightCyan, LavenderBlush);
-    color:cornflowerblue;    
-    color: #333;
-    text-align: left;
-}
-
-img.preload {
-    display: none;
-}
-
-.profile {
-    width: 100%;
-}
-
-img {
-    padding-top: 20px;
-}
 
 h1 a { 
     display: block;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 2px;
+    color: #1c1c1c;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: 1px;
     padding-top: 3%;
     padding-bottom: 3%;
     text-decoration: none;
 }
 
-h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    font-weight: 600;
-    line-height: 22px;
+h2 { 
+    display: block;
+    color: #1c1c1c;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: 1px;
+    padding-top: 3%;
     padding-bottom: 3%;
+    text-decoration: none;
+}
+
+
+p {
+    color: #1c1c1c;
+    font-family: "DM Mono", monospace;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-style: normal;
+    line-height: 32px;
+    text-decoration: none;
 }
 
 li {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    line-height: 22px;
+    color: #1c1c1c;
+    font-family: "DM Mono", monospace;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 1px;
+    line-height: 24px;
     list-style: none;
     padding-bottom: 3%;
 }
 
-.links { 
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    line-height: 22px;
-    padding-bottom: 3%;
-}
-
 a {
-    color: #333;
-    text-decoration: none;
+    color: #1c1c1c;    
+    font-family: "DM Mono", monospace;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 24px;
+    list-style: none;
+    padding-bottom: 3%;
+    text-decoration: underline;
+    color: black;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: #746eb5;
+    font-weight: 500;
 }
 
 #name:hover {
-    color: #333;
+    font-weight: 300;
     text-decoration: none;
 }
